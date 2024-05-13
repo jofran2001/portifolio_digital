@@ -1,4 +1,4 @@
-# portfólio Digital de João Pedro França 
+# Portfólio Digital de João Pedro França 
 
 ##  Como rodar o Portfólio na sua máquina?
 

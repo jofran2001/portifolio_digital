@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/MGT/Blue\ Gray\ Simple\ Gradient\ Mobile\ Phone\ Wallpaper\ Background\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpeg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navbar {
+    background-color: #060606f2;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+.foto_inicial{
+    width: 400px;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.foto_inicial:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.home, .projects {
+    padding: 20px;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+.social-link {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.linkedin-link:hover {
+    color: #0077b5;
+}
+
+.github-link:hover {
+    color: #9e1aacc3;
+}
+
+.email-link:hover {
+    color: #d44638;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 24%;
+    
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1em;
+    margin: 0;
+}
+
+
+
+@media (max-width: 600px) {
+    .nav-link {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .footer {
+        position: static;
+    }
+    .foto_inicial {
+        position: relative;
+    }
+}

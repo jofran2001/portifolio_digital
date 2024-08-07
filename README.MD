@@ -49,8 +49,3 @@ Para rodar o Portfólio, você precisará do seguinte app:
 </details>
 
 
-## Wireframe: Como ficará o projeto futuramente rodando em um dispositivo mobile?
-
- ![pagina inicial mobile](/mgt/home.png)
- ![pagina projetos mobile](/mgt/projetos.png)
- ![pagina experiencias mobile](/mgt/experiencia.png)
